@@ -197,7 +197,6 @@ if __name__ == "__main__":
 Write a Python program to print the following string in a specific format (see the output).
 Sample String : "Twinkle, twinkle, little star, How I wonder what you are! Up above the world so high, Like a diamond in the sky. Twinkle, twinkle, little star, How I wonder what you are"
 Output :
-
 Twinkle, twinkle, little star,
 	How I wonder what you are! 
 		Up above the world so high,   		
@@ -209,3 +208,9 @@ Twinkle, twinkle, little star,
 ```python
 print("Twinkle, twinkle, little star, \n\tHow I wonder what you are! \n\t\tUp above the world so high, \n\t\tLike a diamond in the sky. \nTwinkle, twinkle, little star, \n\tHow I wonder what you are!")
 ```
+
+## Question 8
+Write a Python program to find out what version of Python you are using.
+
+A string containing the version number of the Python interpreter plus additional information on the build number and compiler used. This string is displayed when the interactive interpreter is started.
+
