@@ -214,3 +214,19 @@ Write a Python program to find out what version of Python you are using.
 
 A string containing the version number of the Python interpreter plus additional information on the build number and compiler used. This string is displayed when the interactive interpreter is started.
 
+## Solution
+```python
+import sys  # Import the sys module to access system-specific parameters and functions
+
+# Print the Python version to the console
+print("Python version")
+
+# Use the sys.version attribute to get the Python version and print it
+print(sys.version)
+
+# Print information about the Python version
+print("Version info.")
+
+# Use the sys.version_info attribute to get detailed version information and print it
+print(sys.version_info)
+```
