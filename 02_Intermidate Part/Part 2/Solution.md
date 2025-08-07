@@ -240,8 +240,13 @@ Output : java
 
 ## Solution
 ```python
-filename = input("Enter the filename: ")
-fileName = input("Enter file name: ")
-fileExt = fileName.split(".")
-print(f"the file extension is:",repr(fileExt[-1]))
+# Prompt the user to input a filename and store it in the 'filename' variable
+filename = input("Input the Filename: ")
+
+# Split the 'filename' string into a list using the period (.) as a separator and store it in the 'f_extns' variable
+f_extns = filename.split(".")
+
+# Print the extension of the file, which is the last element in the 'f_extns' list
+print("The extension of the file is : " + repr(f_extns[-1]))
+
 ```
