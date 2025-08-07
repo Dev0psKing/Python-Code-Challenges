@@ -184,7 +184,9 @@ def all_the_longest(my_list):
         if len(word) == current_max:
             longest.append(word)
     
-    return longest
+    return longestfileName = input("Enter file name: ")
+fileExt = fileName.split(".")
+print(f"the file extension is:", repr(fileExt[-1]))
 
 if __name__ == "__main__":
     my_list = ["adele", "mark", "dorothy", "tim", "hedy", "richard"]
@@ -241,5 +243,5 @@ Output : java
 filename = input("Enter the filename: ")
 fileName = input("Enter file name: ")
 fileExt = fileName.split(".")
-print(f"the file extension is: {reprfileExt[-1])}")
+print(f"the file extension is:",repr(fileExt[-1]))
 ```
