@@ -230,3 +230,16 @@ print("Version info.")
 # Use the sys.version_info attribute to get detailed version information and print it
 print(sys.version_info)
 ```
+
+## Question 9
+Write a Python program that accepts a filename from the user and prints the extension of the file.
+Sample filename : abc.java
+Output : java
+
+## Solution
+```python
+filename = input("Enter the filename: ")
+fileName = input("Enter file name: ")
+fileExt = fileName.split(".")
+print(f"the file extension is: {reprfileExt[-1])}")
+```

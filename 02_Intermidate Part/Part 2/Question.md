@@ -85,3 +85,9 @@ Twinkle, twinkle, little star,
 		Like a diamond in the sky. 
 Twinkle, twinkle, little star, 
 	How I wonder what you are
+
+## Question 8
+Write a Python program to find out what version of Python you are using.
+
+A string containing the version number of the Python interpreter plus additional information on the build number and compiler used. This string is displayed when the interactive interpreter is started.
+
