@@ -40,5 +40,14 @@ Note : User is prompted to enter a guess. If the user guesses wrong then the pro
 ## Solution 
 ```python
 
+import random
+guess = int(input("Guess a number between 1 and 9: "))
+tryGuess = random.randint(1,9)
+
+while tryGuess != guess:
+    guess = int(input("Guess a number between 1 and 9: "))
+
+else:
+    print("Well guessed!")
 
 ```
