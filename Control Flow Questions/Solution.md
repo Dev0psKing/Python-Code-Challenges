@@ -51,3 +51,13 @@ else:
     print("Well guessed!")
 
 ```
+
+## Question 4
+Write a Python program that accepts a word from the user and reverses it.
+
+## Solution 
+
+```python 
+word = input("Please Enter word ")
+reversedWord = word[::-1]
+```
