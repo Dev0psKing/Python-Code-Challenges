@@ -61,3 +61,27 @@ Write a Python program that accepts a word from the user and reverses it.
 word = input("Please Enter word ")
 reversedWord = word[::-1]
 ```
+
+## Question 5
+Write a Python program to count the number of even and odd numbers in a series of numbers
+Sample numbers : numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9) 
+
+Expected Output :
+Number of even numbers : 5
+Number of odd numbers : 4
+
+## Solution
+```python
+## Question 5
+numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+evenNum = 0
+oddNum = 0
+for number in numbers:
+    if number % 2 == 0:
+        evenNum += 1
+    else:
+        oddNum += 1
+print(evenNum)
+print(oddNum)
+
+```

@@ -18,3 +18,11 @@ Note : User is prompted to enter a guess. If the user guesses wrong then the pro
 
 ## Question 4
 Write a Python program that accepts a word from the user and reverses it.
+
+## Question 5
+Write a Python program to count the number of even and odd numbers in a series of numbers
+Sample numbers : numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9) 
+
+Expected Output :
+Number of even numbers : 5
+Number of odd numbers : 4
