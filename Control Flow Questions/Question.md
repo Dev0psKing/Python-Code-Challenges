@@ -26,3 +26,10 @@ Sample numbers : numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9)
 Expected Output :
 Number of even numbers : 5
 Number of odd numbers : 4
+
+## Question 6 
+Write a Python program that prints all the numbers from 0 to 6 except 3 and 6.
+
+Note : Use 'continue' statement.
+
+Expected Output : 0 1 2 4 5
