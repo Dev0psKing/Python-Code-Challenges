@@ -93,3 +93,11 @@ Note : Use 'continue' statement.
 
 Expected Output : 0 1 2 4 5
 
+## Solution 
+```python
+for num in range(0, 6):
+    if num == 3:
+        continue
+    print(num, end=" ")
+```
+
