@@ -114,9 +114,10 @@ Expected Output : 1 1 2 3 5 8 13 21 34
 
 ## Solution
 ```python
-a,b = 0,1
-for i in range(50):
-    print(a, end=" ")
-a,b = b, a + b
+a, b = 0, 1
+
+while b < 50:   # continue until b reaches 50
+    print(b, end=" ")
+    a, b = b, a + b
 
 ```
