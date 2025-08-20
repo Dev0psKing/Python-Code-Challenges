@@ -80,7 +80,8 @@ for number in numbers:
     if number % 2 == 0:
         evenNum += 1
     else:
-        oddNum += 1
+        oddNum += 1     
+        
 print(evenNum)
 print(oddNum)
 
