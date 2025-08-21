@@ -161,3 +161,19 @@ for i in range(1, 50 + 1):
     else:
         print(i)
 ```
+## Question 
+
+
+## Solution
+```python
+rows = int(input("Enter a number: "))
+cols = int(input("Enter a number: "))
+
+result = []
+for i in range(rows):
+    rows = []
+    for j in range(cols):
+        rows.append(i * j)
+    result.append(rows)
+print(result)
+```
