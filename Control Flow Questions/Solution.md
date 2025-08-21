@@ -279,3 +279,15 @@ Write a Python program to check whether an alphabet is a vowel or consonant.
 Expected Output:
 
 Input a letter of the alphabet: k    
+
+## Solution
+```python
+word = input("Please enter a word: ")
+vowel = 'a', 'e', 'i', 'o', 'u'
+
+for letter in word:
+    if letter in vowel:
+        print(f"{letter} is a vowel" )
+    else:
+        print(f"{letter} is not a consonant")
+```
