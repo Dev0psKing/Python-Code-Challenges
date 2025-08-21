@@ -43,3 +43,18 @@ Note : The Fibonacci Sequence is the series of numbers :
 Every next number is found by adding up the two numbers before it.
 
 Expected Output : 1 1 2 3 5 8 13 21 34
+
+## Question 8
+Write a Python program to construct the following pattern, using a nested for loop.
+
+## Question
+Write a Python program that iterates the integers from 1 to 50. For multiples of three print "Fizz" instead of the number and for multiples of five print "Buzz". For numbers that are multiples of three and five, print "FizzBuzz".
+
+Sample Output :
+
+fizzbuzz
+1
+2
+fizz
+4
+buzz
