@@ -1,7 +1,9 @@
-celsius = int(input("Enter Celsius: "))
-fahrenheit= int(input("Enter Fahrenheit: "))
-
-formularCelsius = (celsius * 9/5) + 32
-formularFahrenheit = (fahrenheit - 32) * 5/9
-print(f"{celsius}°C is {int(formularCelsius)} in Fahrenheit")
-print(f"{fahrenheit}°F is {int(formularFahrenheit)} in Celsius")
+num = int(input("Please enter a number: "))
+for i in  range(num):
+    for j in range(i + 1):
+        print("*", end=" ")
+    print()
+for i in range(num, 0, -1):
+    for j in range(i, 0, -1):
+        print("*", end=" ")
+    print()
