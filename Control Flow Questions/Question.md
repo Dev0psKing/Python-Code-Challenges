@@ -67,3 +67,13 @@ j = 0,1, n-1.
 
 Test Data : Rows = 3, Columns = 4
 Expected Result : [[0, 0, 0, 0], [0, 1, 2, 3], [0, 2, 4, 6]]
+
+## Question 
+Write a Python program that accepts a string and calculates the number of digits and letters.
+
+Sample Data : Python 3.2
+
+Expected Output :
+
+Letters 6
+Digits
