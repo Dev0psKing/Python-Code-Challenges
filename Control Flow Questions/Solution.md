@@ -82,8 +82,8 @@ for number in numbers:
     else:
         oddNum += 1     
         
-print(evenNum)
-print(oddNum)
+print("The even nummbers are:"evenNum)
+print("The odd nummbers are:"oddNum)
 
 ```
 ## Question 6 
