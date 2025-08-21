@@ -39,17 +39,13 @@ Note : User is prompted to enter a guess. If the user guesses wrong then the pro
 
 ## Solution 
 ```python
-
 import random
-guess = int(input("Guess a number between 1 and 9: "))
 tryGuess = random.randint(1,9)
-
-while tryGuess != guess:
+while True:
     guess = int(input("Guess a number between 1 and 9: "))
-
-else:
-    print("Well guessed!")
-
+    if tryGuess == guess:
+        print("Gessed right!")
+        break
 ```
 
 ## Question 4
@@ -60,6 +56,7 @@ Write a Python program that accepts a word from the user and reverses it.
 ```python 
 word = input("Please Enter word ")
 reversedWord = word[::-1]
+print("The reversed words are:",reversedWord)
 ```
 
 ## Question 5
@@ -82,8 +79,8 @@ for number in numbers:
     else:
         oddNum += 1     
         
-print("The even nummbers are:"evenNum)
-print("The odd nummbers are:"oddNum)
+print("The even nummbers are:",evenNum)
+print("The odd nummbers are:",oddNum)
 
 ```
 ## Question 6 
