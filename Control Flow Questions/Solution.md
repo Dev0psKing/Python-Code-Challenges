@@ -220,3 +220,32 @@ for c in s:
 print("Letters", l)
 print("Digits", d)
 ```
+
+## Question 
+Write a Python program to check the validity of passwords input by users.
+
+Validation :
+
+At least 1 letter between [a-z] and 1 letter between [A-Z].
+At least 1 number between [0-9].
+At least 1 character from [$#@].
+Minimum length 6 characters.
+Maximum length 16 characters.
+
+## Solution
+```python
+password = input("Enter your password: ")
+
+# Validation flags
+has_lower = any(c.islower() for c in password)
+has_upper = any(c.isupper() for c in password)
+has_digit = any(c.isdigit() for c in password)
+has_symbol = any(c in "$#@" for c in password)
+valid_length = 6 <= len(password) <= 16
+
+# Final check
+if has_lower and has_upper and has_digit and has_symbol and valid_length:
+    print("✅ Password is valid")
+else:
+    print("❌ Password is invalid")
+```
