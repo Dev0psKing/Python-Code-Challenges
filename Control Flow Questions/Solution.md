@@ -272,3 +272,10 @@ for i in range(100, 401):
 # Join the elements in the 'items' list separated by ',' and print the result
 print(",".join(items)) 
 ```
+
+## Question
+Write a Python program to check whether an alphabet is a vowel or consonant.
+
+Expected Output:
+
+Input a letter of the alphabet: k    
