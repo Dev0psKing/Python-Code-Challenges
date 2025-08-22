@@ -353,3 +353,27 @@ x: 6
 y: 8                                                                    
 z: 12                                                                   
 Scalene triangle  
+
+## Solution
+```python
+sideX = int(input("Enter side X: "))
+sideY = int(input("Enter side Y: "))
+sideZ = int(input("Enter side Z: "))
+
+if sideX == sideY == sideZ:
+    print("This ia an An equilateral triangle")
+elif sideX != sideY and sideY != sideZ and sideX != sideZ:
+    print("This ia an Scalene triangle")
+else:
+    print("This ia an Isosceles triangle")
+
+    # Alternative
+sides = {sideX, sideY, sideZ}
+
+if len(sides) == 1:
+    print("Equilateral")
+elif len(sides) == 2:
+    print("Isosceles")
+else:
+    print("Scalene")
+```
