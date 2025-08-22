@@ -313,3 +313,11 @@ print(sum(10, 12))  # Call the function 'sum' with arguments 10 and 12, then pri
 
 ```
 
+## Question
+Write a Python program that checks whether a string represents an integer or not.
+
+Expected Output:
+
+Input a string: Python                                                  
+The string is not an integer.
+
