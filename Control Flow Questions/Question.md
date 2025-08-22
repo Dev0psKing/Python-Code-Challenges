@@ -133,3 +133,8 @@ Input first number: 15
 Input second number: 26                                                 
 Input third number: 29                                                  
 The median is 26.0  
+
+## Question 
+Write a Python program to calculate the sum and average of n integer numbers (input from the user). Input 0 to finish.
+
+Pictorial Presentation:
