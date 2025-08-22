@@ -156,5 +156,3 @@ Input a number: 6
 
 ## Question 
 Write a Python program to construct the following pattern, using a nested loop number.
-
-Pictorial Presentation:
