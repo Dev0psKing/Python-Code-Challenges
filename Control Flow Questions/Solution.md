@@ -460,4 +460,3 @@ for i in range(1,11):
 ## Question 
 Write a Python program to construct the following pattern, using a nested loop number.
 
-Pictorial Presentation:
