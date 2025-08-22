@@ -402,3 +402,23 @@ print(float(result))
 Write a Python program to calculate the sum and average of n integer numbers (input from the user). Input 0 to finish.
 
 Pictorial Presentation:
+
+```python
+import statistics
+
+# Display a prompt asking the user to input integers to calculate their sum and average,
+# specifying that entering 0 will exit the program
+print("Input some integers to calculate their sum and average. Input 0 to exit: ")
+result = []
+# Iterate until the user inputs 0
+while True:
+    number = int(input("Please enter a number: "))
+    if number == 0:
+        break
+    result.append(number)
+
+print("The sum of the integers is: ",  sum(result), "The average is: ", statistics.mean(result),)
+
+# Alternative
+
+```
