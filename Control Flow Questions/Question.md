@@ -96,5 +96,7 @@ Write a Python program to find numbers between 100 and 400 (both included) where
 Write a Python program to check whether an alphabet is a vowel or consonant.
 
 Expected Output:
-
 Input a letter of the alphabet: k   
+
+## Question 
+Write a Python program to sum two integers. However, if the sum is between 15 and 20 it will return 20.
