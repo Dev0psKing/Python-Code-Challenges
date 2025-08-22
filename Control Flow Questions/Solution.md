@@ -432,5 +432,28 @@ print(average(*[1, 2, 3, 4]))
 
 # Print the average of the numbers 1, 2, and 3 by passing them directly as arguments to the 'average' function
 print(average(1, 2, 3)) 
+```
+## Question
+Write a Python program to create the multiplication table (from 1 to 10) of a number.
 
+Expected Output:
+
+Input a number: 6                                                       
+6 x 1 = 6                                                               
+6 x 2 = 12                                                              
+6 x 3 = 18                                                              
+6 x 4 = 24                                                              
+6 x 5 = 30                                                              
+6 x 6 = 36                                                              
+6 x 7 = 42                                                              
+6 x 8 = 48                                                              
+6 x 9 = 54                                                              
+6 x 10 = 60
+
+## Solution
+```python
+num = int(input("Enter a number for its multiplication table: "))
+
+for i in range(1,11):
+   print(f"{num} x {i} = {num * i}")
 ```
