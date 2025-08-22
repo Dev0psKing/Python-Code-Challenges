@@ -395,5 +395,5 @@ sideY = int(input("Enter side Y: "))
 sideZ = int(input("Enter side Z: "))
 
 result = stats.median([sideX, sideY, sideZ])
-print(result)
+print(float(result))
 ```
