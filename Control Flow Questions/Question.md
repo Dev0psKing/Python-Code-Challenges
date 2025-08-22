@@ -153,3 +153,8 @@ Input a number: 6
 6 x 8 = 48                                                              
 6 x 9 = 54                                                              
 6 x 10 = 60
+
+## Question 
+Write a Python program to construct the following pattern, using a nested loop number.
+
+Pictorial Presentation:
