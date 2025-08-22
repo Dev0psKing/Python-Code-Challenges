@@ -100,3 +100,12 @@ Input a letter of the alphabet: k
 
 ## Question 
 Write a Python program to sum two integers. However, if the sum is between 15 and 20 it will return 20.
+
+
+## Question
+Write a Python program that checks whether a string represents an integer or not.
+
+Expected Output:
+
+Input a string: Python                                                  
+The string is not an integer.
