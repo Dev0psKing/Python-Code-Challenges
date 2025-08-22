@@ -321,3 +321,19 @@ Expected Output:
 Input a string: Python                                                  
 The string is not an integer.
 
+## Solution 
+```python 
+numWord = input("Enter your word: ")
+if numWord.isdigit() or numWord.startswith("-") and numWord[1::].isdigit() :
+    print("The string is an integer")
+else:
+    print("The string is not an integer")
+
+# Alternatively
+try:
+    int(numWord)
+    print("The string is an integer")
+except ValueError:
+    print("The string is not an integer")
+```
+
