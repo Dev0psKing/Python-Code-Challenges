@@ -421,4 +421,16 @@ print("The sum of the integers is: ",  sum(result), "The average is: ", statisti
 
 # Alternative
 
+# Define a function 'average' that takes in a variable number of arguments using *args
+def average(*args):
+    # Calculate the sum of the arguments using the built-in 'sum' function, starting from 0.0 as the initial value
+    # Divide the sum by the number of arguments using 'len(args)' to compute the average
+    return sum(args, 0.0) / len(args)
+
+# Print the average of the elements within the list [1, 2, 3, 4] by unpacking it with '*'
+print(average(*[1, 2, 3, 4]))
+
+# Print the average of the numbers 1, 2, and 3 by passing them directly as arguments to the 'average' function
+print(average(1, 2, 3)) 
+
 ```
