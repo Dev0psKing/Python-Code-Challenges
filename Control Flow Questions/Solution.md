@@ -291,3 +291,7 @@ for letter in word:
     else:
         print(f"{letter} is not a consonant")
 ```
+
+## Question 
+Write a Python program to sum two integers. However, if the sum is between 15 and 20 it will return 20.
+
