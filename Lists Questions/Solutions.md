@@ -6,6 +6,12 @@ Write a Python program to sum all the items in a list.
 listItem = [1,2,3,4,5,6,7,8,9,0]
 sumItem = 0
 
-for i in range(listItem):
+for i in listItem:
+    sumItem += i
+print(sumItem)
+
+# Alternative using inbuilt function
+sumListItem = sum(listItem)
+print(sumListIt
     
 ```
