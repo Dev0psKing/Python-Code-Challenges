@@ -12,6 +12,9 @@ print(sumItem)
 
 # Alternative using inbuilt function
 sumListItem = sum(listItem)
-print(sumListIt
+print(sumListItem)
     
 ```
+
+## Question
+Write a Python program to multiply all the items in a list.
