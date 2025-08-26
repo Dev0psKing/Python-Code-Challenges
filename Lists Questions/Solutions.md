@@ -141,3 +141,8 @@ print(dup_list)
 Write a Python program to access the index of a list.
 
 ```python
+listItem =  [10, 20, 30, 20, 10, 50, 60, 40, 80, 50, 40]
+
+for i, item in enumerate(listItem):
+    print(i, item)
+```
