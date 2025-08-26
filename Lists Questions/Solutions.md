@@ -136,3 +136,8 @@ print(copyList)
 dup_list = listItem.copy()
 print(dup_list)
 ```
+
+## Question
+Write a Python program to access the index of a list.
+
+```python
