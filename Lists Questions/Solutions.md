@@ -100,3 +100,6 @@ sort_list = sorted(listItem, key=lambda x: x[1])
 
 print(sort_list)
 ```
+
+# Question
+Write a Python program to remove duplicates from a list.
