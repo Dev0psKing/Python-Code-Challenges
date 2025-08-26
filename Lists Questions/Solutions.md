@@ -36,3 +36,19 @@ print(sumListItem)
 Write a Python program to get the largest number from a list.
 
 ```python
+listItem = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# start by assuming the first number is the largest
+highest = listItem[0]
+
+for i in listItem:
+    if i > highest:
+        highest = i
+
+print("Highest number is:", highest)
+
+# Alternatively
+
+listHighest = max(listItem)
+print("Highest number is:", listHighest)
+```
