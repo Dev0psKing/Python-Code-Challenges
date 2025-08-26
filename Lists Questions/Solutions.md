@@ -56,3 +56,19 @@ print("Highest number is:", listHighest)
 ## Question 
 Write a Python program to get the smallest number from a list.
 ```python
+listItem = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# start by assuming the first number is the largest
+smallest = listItem[0]
+
+for i in listItem:
+    if i < smallest:
+        smallest = i
+
+print("smallest number is:", smallest)
+
+# Alternatively
+
+listSmallest = min(listItem)
+print("smallest number is:", listSmallest)
+```
