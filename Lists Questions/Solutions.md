@@ -117,3 +117,10 @@ print(newList)
 ## Question
 Write a Python program to check if a list is empty or not.
 ```python
+mylist = []
+
+if not mylist:
+    print("List is empty")
+else:
+    print("List is not empty")
+```
