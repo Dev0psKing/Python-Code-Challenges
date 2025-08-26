@@ -25,3 +25,6 @@ Write a Python program to remove duplicates from a list.
 
 ## Question
 Write a Python program to check if a list is empty or not.
+
+## Question
+Write a Python program to clone or copy a list.

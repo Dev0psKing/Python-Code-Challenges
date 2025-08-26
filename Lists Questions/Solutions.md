@@ -124,3 +124,5 @@ if not mylist:
 else:
     print("List is not empty")
 ```
+## Question
+Write a Python program to clone or copy a list.
