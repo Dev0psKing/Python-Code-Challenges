@@ -74,7 +74,7 @@ print("smallest number is:", listSmallest)
 ```
 
 
-# Question 
+## Question 
 Write a Python program to count the number of strings from a given list of strings. The string length is 2 or more and the first and last characters are the same.
 Sample List : ['abc', 'xyz', 'aba', '1221']
 Expected Result : 2
@@ -101,7 +101,7 @@ sort_list = sorted(listItem, key=lambda x: x[1])
 print(sort_list)
 ```
 
-# Question
+## Question
 Write a Python program to remove duplicates from a list.
 
 ```python
@@ -112,3 +112,8 @@ newList = list(dup_list)
 
 print(newList)
 ```
+
+
+## Question
+Write a Python program to check if a list is empty or not.
+```python

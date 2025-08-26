@@ -23,4 +23,5 @@ Expected Result : [(2, 1), (1, 2), (2, 3), (4, 4), (2, 5)]
 ## Question
 Write a Python program to remove duplicates from a list.
 
-##
+## Question
+Write a Python program to check if a list is empty or not.
