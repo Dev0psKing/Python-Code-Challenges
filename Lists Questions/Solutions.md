@@ -72,3 +72,4 @@ print("smallest number is:", smallest)
 listSmallest = min(listItem)
 print("smallest number is:", listSmallest)
 ```
+
