@@ -53,3 +53,6 @@ listHighest = max(listItem)
 print("Highest number is:", listHighest)
 ```
 
+## Question 
+Write a Python program to get the smallest number from a list.
+```python
