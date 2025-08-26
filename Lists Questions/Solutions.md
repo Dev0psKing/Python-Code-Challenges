@@ -31,3 +31,6 @@ import math
 sumListItem = math.prod(listItem)
 print(sumListItem)
 ```
+
+## Question 
+Write a Python program to get the largest number from a list.
