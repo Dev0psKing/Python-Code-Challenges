@@ -236,4 +236,3 @@ shuffle(color)
 print(color)
 ```
 
-
