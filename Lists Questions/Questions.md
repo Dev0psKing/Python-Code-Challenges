@@ -35,4 +35,9 @@ Write a Python program to find the list of words that are longer than n from a g
 ### Question
 Write a Python function that takes two lists and returns True if they have at least one common member.
 
+### Question
+Write a Python program to print a specified list after removing the 0th, 4th and 5th elements.
+Sample List : ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
+Expected Output : ['Green', 'White', 'Black']
+
 
