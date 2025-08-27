@@ -43,4 +43,6 @@ Expected Output : ['Green', 'White', 'Black']
 ### Question
 Write a Python program to print the numbers of a specified list after removing even numbers from it.
 
+### Question
+Write a Python program to shuffle and print a specified list.
 
