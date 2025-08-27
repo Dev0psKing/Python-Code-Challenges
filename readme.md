@@ -61,3 +61,26 @@ Want to add your own problem/solution? Feel free to fork, improve, and submit a 
 
 ## ⭐ Support
 If this repo helps you, consider **starring ⭐ it** to support my journey!  
+
+
+<!-- Progress bar SVG (200 / 3000 → 6.67%) -->
+<div align="center">
+  <p><strong>Progress: 200 / 3000 problems — 6.67%</strong></p>
+  <img alt="Progress" src="data:image/svg+xml;utf8,
+  <svg xmlns='http://www.w3.org/2000/svg' width='640' height='80' viewBox='0 0 640 80'>
+    <style>
+      .bg{fill:#e6e6e6}
+      .fg{fill:#2ea44f}
+      .label{font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial; font-size:14px; fill:#24292f}
+      .small{font-size:12px; fill:#586069}
+    </style>
+
+    <!-- background bar -->
+    <rect x='20' y='28' rx='10' ry='10' width='600' height='24' class='bg' />
+    <!-- filled portion: width = 600 * 0.0667 ≈ 40 -->
+    <rect x='20' y='28' rx='10' ry='10' width='40' height='24' class='fg' />
+    <!-- text -->
+    <text x='320' y='18' text-anchor='middle' class='label'>Python Coding Practice Progress</text>
+    <text x='320' y='50' text-anchor='middle' class='small'>200 / 3000 problems • 6.67%</text>
+  </svg>" />
+</div>
