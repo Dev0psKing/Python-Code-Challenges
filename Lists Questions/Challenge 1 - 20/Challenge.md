@@ -236,3 +236,23 @@ shuffle(color)
 print(color)
 ```
 
+### Question
+
+Write a Python program to generate and print a list of square numbers between 1 and 30 (both included).
+From this list, print the first 5 elements and the last 5 elements separately.
+
+Expected Output:
+Square numbers between 1 and 30: [1, 4, 9, 16, 25]  
+First 5 elements: [1, 4, 9, 16, 25]  
+Last 5 elements: [1, 4, 9, 16, 25]  
+
+```python
+result = []
+
+for i in range(1, 31):
+    listSquares = i * i
+    if listSquares >= 30:
+        break
+    result.append(listSquares)
+print(result)
+
