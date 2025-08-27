@@ -219,6 +219,7 @@ for i in list:
         listEven.append(i)
 print(listEven)
 ```
-
+### Question
+Write a Python program to shuffle and print a specified list.
 
 
