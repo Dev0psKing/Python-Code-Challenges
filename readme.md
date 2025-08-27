@@ -41,6 +41,10 @@ To build a **public learning resource** for programmers to practice Python and p
 - Detailed explanations for each solution  
 - Beginner → Advanced difficulty  
 
+![Progress](https://img.shields.io/badge/Problems_Solved-200%2B-brightgreen)
+![Goal](https://img.shields.io/badge/Goal-3000-blue)
+![Python](https://img.shields.io/badge/Made%20with-Python-yellow)
+
 ---
 
 ## 📊 Future Plans
