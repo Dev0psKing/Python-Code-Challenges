@@ -259,4 +259,22 @@ print(result)
 ```
 
 ### Solution
+```pythondef is_prime(n):
+    if n <= 1:  # 0 and 1 are not prime
+        return False
+    for i in range(2, int(n**0.5) + 1):  # check divisibility up to sqrt(n)
+        if n % i == 0:
+            return False
+    return True
 
+def all_primes(numbers):
+    for num in numbers:
+        if not is_prime(num):  # if any number is not prime
+            return False
+    return True
+
+# Test cases
+print(all_primes([0, 3, 4, 7, 9]))   # False
+print(all_primes([3, 5, 7, 13]))     # True
+print(all_primes([1, 5, 3]))         # False
+```
