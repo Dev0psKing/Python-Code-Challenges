@@ -1,9 +1,4 @@
-num = int(input("Please enter a number: "))
-for i in  range(num):
-    for j in range(i + 1):
-        print("*", end=" ")
-    print()
-for i in range(num, 0, -1):
-    for j in range(i, 0, -1):
-        print("*", end=" ")
-    print()
+listItem =  [10, 20, 30, 20, 10, 50, 60, 40, 80, 50, 40]
+
+for index, item in enumerate(listItem):
+    print(index, item)
