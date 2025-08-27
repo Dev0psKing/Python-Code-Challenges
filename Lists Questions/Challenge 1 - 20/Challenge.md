@@ -259,6 +259,7 @@ print(result)
 ```
 
 ### Solution
+
 ```python
 def is_prime(n):
     if n <= 1:  # 0 and 1 are not prime
