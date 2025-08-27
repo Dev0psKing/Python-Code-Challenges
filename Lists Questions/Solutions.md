@@ -1,7 +1,7 @@
-## Question 
+### Question 
 Write a Python program to sum all the items in a list.
 
-## Solution 
+### Solution 
 ```python
 listItem = [1,2,3,4,5,6,7,8,9,0]
 sumItem = 0
@@ -16,7 +16,7 @@ print(sumListItem)
     
 ```
 
-## Question
+### Question
 Write a Python program to multiply all the items in a list.
 ```python 
 listItem = [1,2,3,4,5,6,7,8,9]
@@ -32,7 +32,7 @@ sumListItem = math.prod(listItem)
 print(sumListItem)
 ```
 
-## Question 
+### Question 
 Write a Python program to get the largest number from a list.
 
 ```python
@@ -53,7 +53,7 @@ listHighest = max(listItem)
 print("Highest number is:", listHighest)
 ```
 
-## Question 
+### Question 
 Write a Python program to get the smallest number from a list.
 ```python
 listItem = [1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -74,7 +74,7 @@ print("smallest number is:", listSmallest)
 ```
 
 
-## Question 
+### Question 
 Write a Python program to count the number of strings from a given list of strings. The string length is 2 or more and the first and last characters are the same.
 Sample List : ['abc', 'xyz', 'aba', '1221']
 Expected Result : 2
@@ -88,7 +88,7 @@ for i in listeItem:
 
 print("Count:", countList)
 ```
-## Question 
+### Question 
 Write a Python program to get a list, sorted in increasing order by the last element in each tuple from a given list of non-empty tuples.
 Sample List : [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
 Expected Result : [(2, 1), (1, 2), (2, 3), (4, 4), (2, 5)]
@@ -101,7 +101,7 @@ sort_list = sorted(listItem, key=lambda x: x[1])
 print(sort_list)
 ```
 
-## Question
+### Question
 Write a Python program to remove duplicates from a list.
 
 ```python
@@ -114,7 +114,7 @@ print(newList)
 ```
 
 
-## Question
+### Question
 Write a Python program to check if a list is empty or not.
 ```python
 mylist = []
@@ -124,7 +124,7 @@ if not mylist:
 else:
     print("List is not empty")
 ```
-## Question
+### Question
 Write a Python program to clone or copy a list.
 ```python 
 listItem =  [10, 20, 30, 20, 10, 50, 60, 40, 80, 50, 40]
@@ -137,7 +137,7 @@ dup_list = listItem.copy()
 print(dup_list)
 ```
 
-## Question
+### Question
 Write a Python program to access the index of a list.
 
 ```python
@@ -147,10 +147,10 @@ for index, item in enumerate(listItem):
     print(index, item)
 ```
 
-## Question
+### Question
 Write a Python program to find the list of words that are longer than n from a given list of words.
 
-## Solution
+### Solution
 ```python
 # Define a function called 'long_words' that takes an integer 'n' and a string 'str' as input
 def long_words(n, str):
@@ -173,4 +173,9 @@ def long_words(n, str):
 # Call the 'long_words' function with an 'n' value of 3 and a string as input, and print the result
 print(long_words(3, "The quick brown fox jumps over the lazy dog"))
 ```
+
+### Question
+Write a Python function that takes two lists and returns True if they have at least one common member.
+
+
 
