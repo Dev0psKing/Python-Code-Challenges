@@ -177,6 +177,7 @@ print(long_words(3, "The quick brown fox jumps over the lazy dog"))
 ### Question
 Write a Python function that takes two lists and returns True if they have at least one common member.
 
+### Solution
 ```python 
 def twoLists(list1, list2):
     result = False
@@ -194,6 +195,7 @@ Write a Python program to print a specified list after removing the 0th, 4th and
 Sample List : ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
 Expected Output : ['Green', 'White', 'Black']
 
+### Solution
 ```python
 colors = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
 
@@ -208,7 +210,7 @@ print(result)
 
 ### Question
 Write a Python program to print the numbers of a specified list after removing even numbers from it.
-
+###  Solution
 ```python
 list = [1,2,4,5,6,7,8,9,12,123,120,40,16,2,3,5,7,8,99,12,13,23]
 
@@ -244,7 +246,7 @@ From this list, print the first 5 elements and the last 5 elements separately.
 Expected Output:
 Square numbers between 1 and 30: [1, 4, 9, 16, 25]  
   
-
+### Solution
 ```python
 result = []
 
@@ -256,3 +258,4 @@ for i in range(1, 31):
 print(result)
 ```
 
+###
