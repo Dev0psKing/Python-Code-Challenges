@@ -243,8 +243,7 @@ From this list, print the first 5 elements and the last 5 elements separately.
 
 Expected Output:
 Square numbers between 1 and 30: [1, 4, 9, 16, 25]  
-First 5 elements: [1, 4, 9, 16, 25]  
-Last 5 elements: [1, 4, 9, 16, 25]  
+  
 
 ```python
 result = []
@@ -255,4 +254,5 @@ for i in range(1, 31):
         break
     result.append(listSquares)
 print(result)
+```
 
