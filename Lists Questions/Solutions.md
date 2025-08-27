@@ -206,5 +206,6 @@ result = [c for i, c in enumerate(colors) if i not in remove_indices]
 print(result)
 ```
 
-
+### Question
+Write a Python program to print the numbers of a specified list after removing even numbers from it.
 
