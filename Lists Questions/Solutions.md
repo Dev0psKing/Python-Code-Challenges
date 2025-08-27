@@ -210,4 +210,13 @@ print(result)
 Write a Python program to print the numbers of a specified list after removing even numbers from it.
 
 ```python
+list = [1,2,4,5,6,7,8,9,12,123,120,40,16,2,3,5,7,8,99,12,13,23]
+
+listEven = []
+
+for i in list:
+    if i % 2 != 0:
+        listEven.append(i)
+print(listEven)
+```
 
