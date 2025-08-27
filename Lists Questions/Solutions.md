@@ -177,5 +177,15 @@ print(long_words(3, "The quick brown fox jumps over the lazy dog"))
 ### Question
 Write a Python function that takes two lists and returns True if they have at least one common member.
 
+```python 
+def twoLists(list1, list2):
+    result = False
+    for x in list1:
+        for y in list2:
+            if x == y:
+                result = True
+    return result
 
+print(twoLists([1,2,3,4,5],[6,7,8,7,9]))
+```
 
