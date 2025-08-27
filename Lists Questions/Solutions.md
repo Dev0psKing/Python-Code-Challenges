@@ -146,3 +146,6 @@ listItem =  [10, 20, 30, 20, 10, 50, 60, 40, 80, 50, 40]
 for index, item in enumerate(listItem):
     print(index, item)
 ```
+
+## Question
+Write a Python program to find the list of words that are longer than n from a given list of words.
