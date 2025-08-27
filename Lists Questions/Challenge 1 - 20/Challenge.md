@@ -259,7 +259,8 @@ print(result)
 ```
 
 ### Solution
-```pythondef is_prime(n):
+```python
+def is_prime(n):
     if n <= 1:  # 0 and 1 are not prime
         return False
     for i in range(2, int(n**0.5) + 1):  # check divisibility up to sqrt(n)
