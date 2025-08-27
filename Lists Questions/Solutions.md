@@ -194,3 +194,15 @@ Write a Python program to print a specified list after removing the 0th, 4th and
 Sample List : ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
 Expected Output : ['Green', 'White', 'Black']
 
+```python
+colors = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
+
+# Indices to remove
+remove_indices = {0, 4, 5}
+
+# Use list comprehension to filter
+result = [c for i, c in enumerate(colors) if i not in remove_indices]
+
+print(result)
+```
+
