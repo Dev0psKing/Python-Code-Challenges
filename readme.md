@@ -50,7 +50,7 @@ To build a **public learning resource** for programmers to practice Python and p
 
 ![Goal](https://img.shields.io/badge/Goal-3000-blue)
 
-![Python](https://img.shields.io/badge/Made%20with-Python-yellow)
+[//]: # (![Python]&#40;https://img.shields.io/badge/Made%20with-Python-yellow&#41;)
 
 ---
 
