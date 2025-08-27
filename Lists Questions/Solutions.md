@@ -206,3 +206,5 @@ result = [c for i, c in enumerate(colors) if i not in remove_indices]
 print(result)
 ```
 
+
+
