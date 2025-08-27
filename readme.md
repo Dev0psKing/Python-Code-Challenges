@@ -1,26 +1,59 @@
-# Python Coding Practice Problems 🚀
+# 🐍 Python Coding Practice Problems 🚀
 
-This repository is my personal journey of solving **3000 Python problems**.  
-Currently: **200+ problems solved**, and growing daily.  
+Welcome to my journey of solving **3000 Python problems**!  
+Currently: **200+ problems solved** 🎉 and counting daily.  
 
-The problems are organised by:
-- **Simple** (basic syntax & logic, loops, functions, OOP)
-- **Topic-specific** (Strings, Lists, Control Flow, etc.)
-
-Each folder has:
-- `Questions.md` → list of problems
-- `Solutions.md` → Python solutions with explanations
+This repo is organized to help anyone learning Python, preparing for coding interviews, or practicing problem-solving skills.
 
 ---
 
-## 📌 Progress
-✅ Simple Part → 100+ done  
+## 📂 Structure
+- **Simple** → Basic syntax, logic, loops, functions, OOP  
+- **Topic-specific** → Strings, Lists, Control Flow, etc.  
 
-✅ Control Flow → 20+ done
+Each folder contains:
+- `Questions.md` → problem list  
+- `Solutions.md` → Python solutions with explanations  
 
-✅ Lists  → 20+ done
+---
+
+## 📌 Progress Tracker  
+
+Here’s my current progress (click links to view):  
+
+- ✅ [Simple Part → 100+ done](https://github.com/Dev0psKing/Python-Code-Challenges/tree/master/01_Simple%20Part%20(100%2B%20Questions))  
+- ✅ [Control Flow → 20+ done](https://github.com/Dev0psKing/Python-Code-Challenges/tree/master/Control%20Flow%20Questions)  
+- ✅ [Lists → 20+ done](https://github.com/Dev0psKing/Python-Code-Challenges/tree/master/Lists%20Questions)  
 
 ---
 
 ## 🎯 Goal
-To create a **public learning resource** for programmers preparing for interviews, coding challenges, or just practicing Python.
+To build a **public learning resource** for programmers to practice Python and prepare for:  
+- 💡 Coding interviews  
+- 📘 Problem-solving skill building  
+- 🏆 Competitive programming  
+
+---
+
+## 🔥 Features
+- 200+ Python problems (growing daily)  
+- Well-structured by topics  
+- Detailed explanations for each solution  
+- Beginner → Advanced difficulty  
+
+---
+
+## 📊 Future Plans
+- Add **progress badges** (dynamic % completed)  
+- Add **visual problem tracker** (like a progress bar)  
+- Expand to **3000+ problems**  
+
+---
+
+## 🤝 Contributing
+Want to add your own problem/solution? Feel free to fork, improve, and submit a PR.  
+
+---
+
+## ⭐ Support
+If this repo helps you, consider **starring ⭐ it** to support my journey!  
