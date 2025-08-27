@@ -5,6 +5,10 @@ Currently: **200+ problems solved** 🎉 and counting daily.
 
 This repo is organized to help anyone learning Python, preparing for coding interviews, or practicing problem-solving skills.
 
+![Progress](https://img.shields.io/badge/Problems_Solved-200%2B-brightgreen)
+![Goal](https://img.shields.io/badge/Goal-3000-blue)
+![Python](https://img.shields.io/badge/Made%20with-Python-yellow)
+
 ---
 
 ## 📂 Structure
@@ -40,10 +44,6 @@ To build a **public learning resource** for programmers to practice Python and p
 - Well-structured by topics  
 - Detailed explanations for each solution  
 - Beginner → Advanced difficulty  
-
-![Progress](https://img.shields.io/badge/Problems_Solved-200%2B-brightgreen)
-![Goal](https://img.shields.io/badge/Goal-3000-blue)
-![Python](https://img.shields.io/badge/Made%20with-Python-yellow)
 
 ---
 
