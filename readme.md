@@ -5,10 +5,6 @@ Currently: **200+ problems solved** 🎉 and counting daily.
 
 This repo is organized to help anyone learning Python, preparing for coding interviews, or practicing problem-solving skills.
 
-![Progress](https://img.shields.io/badge/Problems_Solved-200%2B-brightgreen)
-![Goal](https://img.shields.io/badge/Goal-3000-blue)
-![Python](https://img.shields.io/badge/Made%20with-Python-yellow)
-
 ---
 
 ## 📂 Structure
@@ -62,6 +58,11 @@ Want to add your own problem/solution? Feel free to fork, improve, and submit a 
 ## ⭐ Support
 If this repo helps you, consider **starring ⭐ it** to support my journey!  
 
+![Progress](https://img.shields.io/badge/Problems_Solved-200%2B-brightgreen)
+![Goal](https://img.shields.io/badge/Goal-3000-blue)
+![Python](https://img.shields.io/badge/Made%20with-Python-yellow)
+
+
 
 <!-- Progress bar SVG (200 / 3000 → 6.67%) -->
 <div align="center">
@@ -84,3 +85,6 @@ If this repo helps you, consider **starring ⭐ it** to support my journey!
     <text x='320' y='50' text-anchor='middle' class='small'>200 / 3000 problems • 6.67%</text>
   </svg>" />
 </div>
+
+
+[![Progress](https://img.shields.io/badge/Progress-6.67%25-2ea44f)](https://github.com/Dev0psKing/Python-Code-Challenges)
