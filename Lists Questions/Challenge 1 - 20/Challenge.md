@@ -326,6 +326,5 @@ total_diff = diff_list1_list2 + diff_list2_list1
 print(total_diff)
 
 Sample Output:
-
 [9, 3, 5, 8, 2, 4, 6]
 ```
