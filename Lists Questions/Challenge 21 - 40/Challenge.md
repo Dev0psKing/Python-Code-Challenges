@@ -20,6 +20,7 @@ Sample Output:
 ```
 
 ### Question
+Write a Python program to select an item randomly from a list.
 
 ### Solution
 ```python
@@ -34,3 +35,4 @@ def random_element(lst):
 
 # Call the 'random_element' function with a list as an argument and print the randomly selected element
 print(random_element([2, 3, 4, 7, 9, 11, 15]))
+```
