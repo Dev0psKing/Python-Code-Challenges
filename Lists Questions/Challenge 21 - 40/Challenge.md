@@ -15,5 +15,6 @@ final_list = list1 + list2
 print(final_list)
 
 Sample Output:
-[1, 2, 3, 0, 'Red', 'Green', 'Black'] 
+[1, 2, 3, 0, 'Red', 'Green', 'Black']
+
 ```
