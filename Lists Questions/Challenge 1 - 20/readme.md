@@ -8,29 +8,27 @@ Each challenge has:
 
 ---
 
-## 📂 Challenge List
-Here’s what’s inside this batch:
-
-1. Reverse a String  
-2. Check if a Number is Prime  
-3. Find the Largest Element in a List  
-4. Generate Fibonacci Sequence  
-5. Palindrome Checker  
-6. Factorial using Recursion  
-7. Find GCD of Two Numbers  
-8. Check Armstrong Number  
-9. Count Vowels in a String  
-10. Sort a List without Built-in Sort  
-11. Find Duplicate Elements in a List  
-12. Merge Two Sorted Lists  
-13. Sum of Digits of a Number  
-14. Binary Search Implementation  
-15. Linear Search Implementation  
-16. Anagram Checker  
-17. Find Second Largest Number  
-18. Remove Punctuation from String  
-19. Convert Decimal to Binary  
-20. Find Intersection of Two Lists  
+## 🗂️ Contents
+1. [Sum all items in a list](#1-sum-all-items-in-a-list)
+2. [Multiply all items in a list](#2-multiply-all-items-in-a-list)
+3. [Get the largest number from a list](#3-get-the-largest-number-from-a-list)
+4. [Get the smallest number from a list](#4-get-the-smallest-number-from-a-list)
+5. [Count strings with same first/last char (len ≥ 2)](#5-count-strings-with-same-firstlast-char-len--2)
+6. [Sort list of tuples by last element](#6-sort-list-of-tuples-by-last-element)
+7. [Remove duplicates from a list](#7-remove-duplicates-from-a-list)
+8. [Check if a list is empty](#8-check-if-a-list-is-empty)
+9. [Clone / copy a list](#9-clone--copy-a-list)
+10. [Access index while iterating (enumerate)](#10-access-index-while-iterating-enumerate)
+11. [Words longer than n from a sentence](#11-words-longer-than-n-from-a-sentence)
+12. [Two lists share a common member](#12-two-lists-share-a-common-member)
+13. [Remove 0th, 4th, and 5th elements](#13-remove-0th-4th-and-5th-elements)
+14. [Remove even numbers from a list](#14-remove-even-numbers-from-a-list)
+15. [Shuffle a list](#15-shuffle-a-list)
+16. [Squares of 1..30; print first 5 and last 5](#16-squares-of-130-print-first-5-and-last-5)
+17. [All numbers are prime?](#17-all-numbers-are-prime)
+18. [Generate all permutations of a list](#18-generate-all-permutations-of-a-list)
+19. [Difference between two lists](#19-difference-between-two-lists)
+20. [Convert list of characters to a string](#20-convert-list-of-characters-to-a-string)
 
 ---
 
