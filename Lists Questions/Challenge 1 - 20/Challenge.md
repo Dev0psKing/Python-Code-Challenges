@@ -286,3 +286,5 @@ print(all_primes([0, 3, 4, 7, 9]))   # False
 print(all_primes([3, 5, 7, 13]))     # True
 print(all_primes([1, 5, 3]))         # False
 ```
+### Question
+Write a Python program to generate all permutations of a list in Python.
