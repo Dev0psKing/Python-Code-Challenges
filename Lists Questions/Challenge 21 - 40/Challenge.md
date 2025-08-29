@@ -36,3 +36,8 @@ def random_element(lst):
 # Call the 'random_element' function with a list as an argument and print the randomly selected element
 print(random_element([2, 3, 4, 7, 9, 11, 15]))
 ```
+
+### Question
+Write a Python program to find the second largest number in a list.
+
+###
