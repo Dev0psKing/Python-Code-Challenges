@@ -77,7 +77,7 @@ print(second_largest([2, 2]))  # → None
 print(second_largest([2]))     # → None
 
 
-Alternative 
+# Alternative 
 lst = [1, 2, 3, 4, 5, 6, -7, 8, 9, -10]
 
 # Remove duplicates just in case
