@@ -40,4 +40,5 @@ print(random_element([2, 3, 4, 7, 9, 11, 15]))
 ### Question
 Write a Python program to find the second largest number in a list.
 
-###
+### Solution
+
