@@ -228,3 +228,5 @@ def prime_eratosthenes(n):
 prime_eratosthenes(100)
 ```
 
+### Question 
+Write a Python program to create a list by concatenating a given list with a range from 1 to n.
