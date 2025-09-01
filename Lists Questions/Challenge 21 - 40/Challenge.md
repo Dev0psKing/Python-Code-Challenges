@@ -141,6 +141,7 @@ list2 = ['a', 'b', 'c', 'd', 'e', 'f']
 # Call the 'count_range_in_list' function with 'list2' and the range ['a', 'e'], and print the result
 print(count_range_in_list(list2, 'a', 'e')) 
 
+### Question
 Write a Python program to check whether a list contains a sublist.
 
 ### Solution
@@ -203,3 +204,6 @@ print(contains_sublist(main, sub2)) # Output False
 ```
 
 ### Question 
+Write a Python program that uses the Sieve of Eratosthenes method to compute prime numbers up to a specified number.
+
+Note: In mathematics, the sieve of Eratosthenes (Ancient Greek: κόσκινον Ἐρατοσθένους, kóskinon Eratosthénous), one of a number of prime number sieves, is a simple, ancient algorithm for finding all prime numbers up to any given limit.
