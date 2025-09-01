@@ -111,7 +111,7 @@ print("Frequency of the elements in the List : ", lstFreq)
 ```
 
 ### Question 
-
+Write a Python program to count the number of elements in a list within a specified range.
 
 ### Solution 
 # Define a function named 'count_range_in_list' that counts the number of elements within a specified range
