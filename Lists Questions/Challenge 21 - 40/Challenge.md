@@ -227,3 +227,4 @@ def prime_eratosthenes(n):
 # The function does not have a return value, so it prints the prime numbers directly
 prime_eratosthenes(100)
 ```
+
