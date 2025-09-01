@@ -144,6 +144,7 @@ print(count_range_in_list(list2, 'a', 'e'))
 Write a Python program to check whether a list contains a sublist.
 
 ### Solution
+```python
 # Define a function named 'is_Sublist' that checks if list 's' is a sublist of list 'l'
 def is_Sublist(l, s):
     sub_set = False  # Initialize a flag 'sub_set' to indicate whether 's' is a sublist of 'l
@@ -200,3 +201,5 @@ sub2 = [1, 2, 5]
 print(contains_sublist(main, sub))  # Output: True
 print(contains_sublist(main, sub2)) # Output False
 ```
+
+### Question 
