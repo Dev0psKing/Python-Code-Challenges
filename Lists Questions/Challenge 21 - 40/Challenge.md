@@ -185,4 +185,18 @@ print(is_Sublist(a, b))
 # Check if 'c' is a sublist of 'a' and print the result
 print(is_Sublist(a, c)) 
 
+# Alternatively 
+def contains_sublist(main_list, sublist):
+    """Check if main_list contains sublist"""
+    if not sublist:
+        return True
+    n, m = len(main_list), len(sublist)
+    return any(main_list[i:i + m] == sublist for i in range(n - m + 1))
 
+# Example usage
+main = [1, 2, 3, 4, 5]
+sub = [1, 2, 3]
+sub2 = [1, 2, 5]
+print(contains_sublist(main, sub))  # Output: True
+print(contains_sublist(main, sub2)) # Output False
+```
