@@ -141,3 +141,5 @@ list2 = ['a', 'b', 'c', 'd', 'e', 'f']
 # Call the 'count_range_in_list' function with 'list2' and the range ['a', 'e'], and print the result
 print(count_range_in_list(list2, 'a', 'e')) 
 
+Write a Python program to check whether a list contains a sublist.
+
