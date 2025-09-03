@@ -476,4 +476,12 @@ Examples:
 Input: n = 10
 Output: 0
 
-###
+### Solution
+```python
+def lastDigit(n: int) -> int:
+    lstDigit = abs(n) % 10
+    return lstDigit
+print(lastDigit(12))
+print(lastDigit(15))
+print(lastDigit(10))
+```
