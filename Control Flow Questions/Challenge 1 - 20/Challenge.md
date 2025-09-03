@@ -467,3 +467,13 @@ for i in range(10):
     # Print the string representation of 'i' multiplied by 'i'
     print(str(i) * i)
 ```
+
+### Bonus
+Given an integer n. Write a program to return the last digit of the number.
+
+Examples:
+
+Input: n = 10
+Output: 0
+
+###
