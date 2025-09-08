@@ -485,3 +485,4 @@ print(lastDigit(12))
 print(lastDigit(15))
 print(lastDigit(10))
 ```
+
