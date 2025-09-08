@@ -260,3 +260,49 @@ new_list = ['{}{}'.format(x, y) for y in range(1, n+1) for x in my_list]
 # Print the 'new_list' containing combinations of elements from 'my_list' and numbers
 print(new_list)
 ```
+## Question
+Write a Python program to split a list every Nth element.
+
+## Solution
+```python
+# Define a list 'C' containing alphabetic characters from 'a' to 'n'
+C = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n']
+
+# Define a function 'list_slice' that takes a sequence 'S' and a 'step' value
+# The function returns a list of slices from 'S' with a step of 'step'
+def list_slice(S, step):
+    return [S[i::step] for i in range(step)]
+
+# Call the 'list_slice' function with the list 'C' and a step value of 3
+# The function generates slices of 'C' with a step of 3 and returns a list of these slices
+# Print the resulting list of slices
+print(list_slice(C, 3))
+
+## Alternative using List Comprehension
+def split_list_nth(lst, n):
+    """Split a list every Nth element"""
+    return [lst[i:i+n] for i in range(0, len(lst), n)]
+
+# Example usage
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+n = 3
+
+result = split_list_nth(my_list, n)
+print(f"Original list: {my_list}")
+print(f"Split every {n} elements: {result}")
+
+## Alternative Using Generators Function
+def split_list_nth_generator(lst, n):
+    """Generator that yields chunks of size n"""
+    for i in range(0, len(lst), n):
+        yield lst[i:i+n]
+
+# Example usage
+my_list = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
+n = 2
+
+print(f"Original list: {my_list}")
+print(f"Split every {n} elements:")
+for chunk in split_list_nth_generator(my_list, n):
+    print(chunk)
+```
