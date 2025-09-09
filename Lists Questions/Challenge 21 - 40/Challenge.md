@@ -313,3 +313,7 @@ Sample data: ["red", "orange", "green", "blue", "white"], ["black", "yellow", "g
 Expected Output:
 Color1-Color2: ['white', 'orange', 'red']
 Color2-Color1: ['black', 'yellow']
+
+
+## Solution 
+```python
