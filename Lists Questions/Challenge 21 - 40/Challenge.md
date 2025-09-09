@@ -306,3 +306,10 @@ print(f"Split every {n} elements:")
 for chunk in split_list_nth_generator(my_list, n):
     print(chunk)
 ```
+
+## Question 
+Write a Python program to compute the difference between two lists.
+Sample data: ["red", "orange", "green", "blue", "white"], ["black", "yellow", "green", "blue"]
+Expected Output:
+Color1-Color2: ['white', 'orange', 'red']
+Color2-Color1: ['black', 'yellow']
