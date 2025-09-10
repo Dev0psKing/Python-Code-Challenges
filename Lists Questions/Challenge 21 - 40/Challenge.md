@@ -355,3 +355,5 @@ Explanation: 3 days before the 4th(Thursday) is 1(Monday).
 Input: d = 2, n = 19
 Output: 4
 Explanation: 19 days before the 2nd(Tuesday) is 4(Thursday).
+
+### Solution
