@@ -566,3 +566,31 @@ if valueInput % 2 == 0 :
 else:
     print("You")
 ```
+
+### Question 
+Given three numbers a, b, and c. You need to find which is the greatest of them all.
+
+Examples:
+
+Input: a = 1, b = 2, c = 3
+Output: 3
+Explanation: Clearly, c = 3 is the greatest of (1, 2, 3)
+Input: a = 2, b = 2, c = 5
+Output: 5
+Explanation: Out of (2, 2, 5) 5 is the greatest.
+
+### Solution
+```python
+def greatest_of_three(a, b, c):
+    if a >= b and a >= c:
+        return a
+    elif b >= a and b >= c:
+        return b
+    else:
+        return c
+
+
+# Examples
+print(greatest_of_three(1, 2, 3))  # Expected 3
+print(greatest_of_three(2, 2, 5))  # Expected 5
+````
