@@ -581,16 +581,20 @@ Explanation: Out of (2, 2, 5) 5 is the greatest.
 
 ### Solution
 ```python
-def greatest_of_three(a, b, c):
-    if a >= b and a >= c:
-        return a
-    elif b >= a and b >= c:
-        return b
+def is_leap_year(year):
+    if year % 400 == 0:
+        return True
+    elif year % 100 == 0:
+        return False
+    elif year % 4 == 0:
+        return True
     else:
-        return c
+        return False
 
 
 # Examples
-print(greatest_of_three(1, 2, 3))  # Expected 3
-print(greatest_of_three(2, 2, 5))  # Expected 5
+print(is_leap_year(2020))  # True (divisible by 4 but not 100)
+print(is_leap_year(1900))  # False (divisible by 100 but not 400)
+print(is_leap_year(2000))  # True (divisible by 400)
+print(is_leap_year(2023))  # False (not divisible by 4)
 ````
