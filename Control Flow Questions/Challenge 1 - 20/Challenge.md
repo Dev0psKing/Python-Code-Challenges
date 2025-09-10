@@ -513,19 +513,35 @@ else:
 ```
 
 ### Question 
-Given a number a, you have to use if, elif, else conditional statements according to the following:
-if number is greater than 100: Print "Big" (without quotes)
-elif number is smaller than 10: Print "Small" (without quotes)
-else: Print "Number" (without quotes)
+You are given a number a and you have to print your answer according to the following:
+
+If the number is divisible by 3, you print "Fizz" (without quotes)
+If the number is divisible by 5, you print "Buzz" (without quotes)
+If the number is divisible by both 3 and 5, you print "FizzBuzz" (without quotes)
+In any other case, you print the number itself
+Note: You should add a new-line character after print statement.
 
 Examples:
 
-Input: a = 9
-Output: Small
-Explanation: Here, the else if condition will work as 9 is smaller than 10.
-Input: a = 101
-Output: Big
-Explanation: 101 is greater than 100, so our if statement works and we print Big.
-Input: a = 30
-Output: Number
-Explanation: 30 is neither greater than 100, nor smaller than 10, so the else statement works here.
+Input: a = 3
+Output: Fizz
+Explanation: Here, the number is divisible by 3, so Fizz is printed.
+Input: a = 5
+Output: Buzz
+Explanation: Here the number is divisible by 5, so Buzz is printed.
+Input: a = 15
+Output: FizzBuzz
+Explanation: Here, the number 15 is divisible by both 3 and 5, so FizzBuzz is printed.
+
+### Solution
+```python
+valueInput = int(input("please enter a number: "))
+if valueInput % 3 == 0 and valueInput % 5 == 0:
+    print("FizzBuzz")
+elif valueInput % 3 == 0:
+    print("Fizz")
+elif valueInput % 5 == 0:
+    print("Buzz")
+else:
+    print(f"your input was {valueInput}")
+```
