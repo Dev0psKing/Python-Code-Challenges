@@ -504,3 +504,10 @@ Number
 Explanation: 101 is greater than 100, so we print Big and Number will be printed by default in the next line.
 
 ### Solution 
+```python
+num = int(input("Enter a number: "))
+if num > 100:
+    print("Big Number")
+else:
+    print("Number")
+```
