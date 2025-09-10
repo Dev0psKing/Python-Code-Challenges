@@ -357,3 +357,11 @@ Output: 4
 Explanation: 19 days before the 2nd(Tuesday) is 4(Thursday).
 
 ### Solution
+```python
+def findanswer(d, n):
+    days = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
+    days_index = (d - n) % 7
+    return days[days_index]
+print(findanswer(5, 3))
+print(findanswer(2, 19))
+```
