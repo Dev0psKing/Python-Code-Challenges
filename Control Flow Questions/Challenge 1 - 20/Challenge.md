@@ -615,6 +615,7 @@ Explanation: 1 * 2 = 2
 Input: a = 2, b = 2, operator = 2
 Output: 0
 Explanation: 2 - 2 = 0
+
 ### Solution
 ```python
 def calculate(self, a: int, b: int, operator: int) -> None:
