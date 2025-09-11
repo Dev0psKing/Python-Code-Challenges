@@ -10,3 +10,10 @@ Output: 6 12 18 24 30 36 42 48 54 60
 
 ### Answer
 ```python
+number = int(input("Please Enter a Number "))
+
+result = 0
+for num in range(10):
+    result += number
+    print(result, end=" ")
+```
