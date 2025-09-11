@@ -44,7 +44,7 @@ Here’s my current progress (click links to view):
 - ✅ [Lists → 20+ done](https://github.com/Dev0psKing/Python-Code-Challenges/tree/master/Lists%20Questions)  
 
 ✅ [Loops → 20+ done](https://github.com/Dev0psKing/Python-Code-Challenges/tree/master/Control%20Flow%20Questions)  
-- ✅ [Lists → 20+ done](https://github.
+
 ---
 
 ## 🎯 Goal
