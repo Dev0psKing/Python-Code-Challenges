@@ -271,3 +271,12 @@ Output:
 * * 
 *
 Explanation: Length of perpendicular and base of triangle is 3 .
+
+### Solution
+```python
+n = int(input("Please enter a number: "))
+for i in range(n,0, -1):
+    for j in range(i,0, -1):
+        print("*", end="")
+    print()
+```
