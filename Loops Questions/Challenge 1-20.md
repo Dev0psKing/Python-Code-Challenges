@@ -117,7 +117,14 @@ Output:
 Explanation: It's a square! Each side contains n = 3 .
 
 ### Solution
-
+```python
+n = int(input("Please Enter First Number: "))
+for i in range(n):
+    if i == 0 or i == n-1:  # first or last row
+        print("* " * n)
+    else:  # middle rows
+        print("*" + " " * (2*n - 3) + "*")
+```
 ### Question
 Given an integer n,  write a program to print the square wall of size n using a single loop and string multiplication. 
 
