@@ -17,3 +17,4 @@ for num in range(10):
     result += number
     print(result, end=" ")
 ```
+
