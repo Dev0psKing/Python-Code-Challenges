@@ -57,3 +57,9 @@ Output: 5 4 3 2 1 0
 Explanation: Numbers in decreasing order from 5 are 5 4 3 2 1 0.
 
 ### Solution
+```python
+words = int(input("Please Enter The Word: "))
+while words >= 0:
+    print(words, end=" ")
+    words -= 1
+```
