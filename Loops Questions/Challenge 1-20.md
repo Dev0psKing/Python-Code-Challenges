@@ -84,3 +84,15 @@ Explanation:
 - 2  4  6  8 10 12 14 16 18 20
 -----------------------------------------
 = 4  8 12 16 20 24 28 32 36 40
+
+### Solution
+```python
+n1 = int(input("Please Enter First Number: "))
+n2 = int(input("Please Enter Second Number: "))
+
+n3 = n1 - n2
+result = 0
+for  i in range(10):
+    result += n3
+    print(result, end=" ")
+```
