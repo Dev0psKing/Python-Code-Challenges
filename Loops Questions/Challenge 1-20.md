@@ -145,3 +145,10 @@ Output:
 * * * * 
 * * * * 
 Explanation: Its perfect square wall. 
+
+### Solution
+```python
+n = int(input("Please Enter First Number: "))
+for i in range(n):
+        print("* " * n)
+```
