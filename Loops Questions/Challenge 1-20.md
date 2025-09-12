@@ -96,3 +96,45 @@ for  i in range(10):
     result += n3
     print(result, end=" ")
 ```
+
+### Question
+Given an integer n, write a program to print the square of size n using "*" character. 
+
+Examples :
+
+Input: n = 4
+Output:
+* * * *
+*     *
+*     *
+* * * *
+Explanation: It's a square! Each side contains n = 4 .
+Input: n = 3
+Output:
+* * * 
+*   *
+* * *
+Explanation: It's a square! Each side contains n = 3 .
+
+### Solution
+
+### Question
+Given an integer n,  write a program to print the square wall of size n using a single loop and string multiplication. 
+
+Examples:
+
+Input: n = 5
+Output:
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+Explanation: Its perfect square wall. 
+Input: n = 4
+Output:
+* * * * 
+* * * * 
+* * * * 
+* * * * 
+Explanation: Its perfect square wall. 
