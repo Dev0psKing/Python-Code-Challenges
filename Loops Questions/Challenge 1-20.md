@@ -38,4 +38,8 @@ for word in range(len(words)):
     if word % 2 == 0:
         result += words[word]
 print(result)
+
+# Alternative
+result = words[::2]
+print(result)
 ```
