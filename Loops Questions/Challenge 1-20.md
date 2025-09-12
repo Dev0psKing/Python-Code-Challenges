@@ -18,3 +18,24 @@ for num in range(10):
     print(result, end=" ")
 ```
 
+### Question
+You are given a string s, you need to print its characters at even indices (index starts at 0).
+
+Examples:
+
+Input: s = "Geeks"
+Output: Ges
+Explanation: The even indices characters are printed.
+Input: s = "DoctorPhenomenal"
+Output: DcoPeoea
+Explanation: The even indices characters are printed.
+
+### Solution
+```python
+words = input("Please Enter The Word: ")
+result = ""
+for word in range(len(words)):
+    if word % 2 == 0:
+        result += words[word]
+print(result)
+```
