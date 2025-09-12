@@ -212,3 +212,41 @@ for i in range(num):
         print("*", end=" ")
     print()
 ```
+
+### Question
+Given an integer n. Write a program to print the Right angle triangle. The length of the perpendicular and base is n.  
+
+Examples :
+
+Input: n = 9
+Output:
+*
+* *
+*   *
+*     *
+*       *
+*         *
+*           *
+*             *
+* * * * * * * * * 
+Explanation: Length of perpendicular and base of triangle is 9.
+Input: n = 4
+Output:
+*
+* *
+*   *
+* * * *
+Explanation: Length of perpendicular and base of triangle is 4.
+
+### Solution
+```python
+n = int(input("Please enter a number: "))
+
+for i in range(n):
+    if i == 0:
+        print("*")
+    elif i == n -1:
+         print("* " * n)
+    else:
+        print("*" + " " * (2 * i - 1) + "*")
+```
