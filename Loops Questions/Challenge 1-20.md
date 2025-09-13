@@ -317,3 +317,10 @@ Output: 3628800
 Explanation: 1 * 2 * 3 * 4 * 5 * 6 * 7 * 8 * 9 * 10 = 3628800
 
 ### Soultion
+```python
+n = int(input("Please Enter Number: "))
+result = 1
+for i in range(1, n + 1):
+    result *= i
+print(result)
+```
