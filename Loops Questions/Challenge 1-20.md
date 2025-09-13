@@ -316,7 +316,7 @@ Input: n = 10
 Output: 3628800
 Explanation: 1 * 2 * 3 * 4 * 5 * 6 * 7 * 8 * 9 * 10 = 3628800
 
-### Soultion
+### Soltion
 ```python
 n = int(input("Please Enter Number: "))
 result = 1
