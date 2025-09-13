@@ -292,3 +292,12 @@ Explanation: 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55.
 Input: n = 5
 Output: 15
 Explanation: 1 + 2 + 3 + 4 + 5 = 15.
+
+### Solution
+```python
+n = int(input("Please Enter Number: "))
+result = 0
+for i in range(1, n + 1):
+    result += i
+print(result)
+```
