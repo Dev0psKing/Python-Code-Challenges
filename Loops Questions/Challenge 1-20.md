@@ -362,3 +362,18 @@ Explanation: 17 is  divisible by only 1 and 17. So it's a prime number.
 Input: n = 56
 Output: False
 Explanation: 56 is divisible by 2, 4, 7.....etc. So its not a prime number.
+
+### Solution
+```python
+n = int(input("Please Enter Number: "))
+
+if n < 2:
+    print(False)
+else:
+    is_prime = True
+    for i in range(2, int(n**0.5)+1):
+        if n % i == 0:
+            is_prime = False
+            break
+    print(is_prime)
+```
