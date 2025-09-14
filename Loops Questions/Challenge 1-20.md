@@ -388,3 +388,5 @@ Explanation: 17 is next prime number.
 Input: n = 7
 Output: 11
 Explanation: 11 is the prime number next to 7.
+
+### Solution
