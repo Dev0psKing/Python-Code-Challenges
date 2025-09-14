@@ -378,3 +378,13 @@ else:
     print(is_prime)
 ``` 
 ### Question
+Given an integer n. Write a program to find the first prime number greater than n.
+
+Examples:
+
+Input: n = 15
+Output: 17
+Explanation: 17 is next prime number.
+Input: n = 7
+Output: 11
+Explanation: 11 is the prime number next to 7.
