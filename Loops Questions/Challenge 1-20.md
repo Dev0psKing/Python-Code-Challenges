@@ -412,3 +412,15 @@ print("Next prime number is:", next_prime(n))
 ```
 ### Question 
 write a program to calculate for fibonacci.
+
+### Solution 
+```python
+def fibonacci(n):
+    a, b = 0, 1
+    for _ in range(n):
+        a, b = b, a + b
+    return a
+
+# Example usage
+print(fibonacci(10))  # Output: 55
+```
