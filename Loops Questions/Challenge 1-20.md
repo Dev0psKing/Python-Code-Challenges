@@ -410,3 +410,5 @@ def next_prime(n):
 n = int(input("Enter a number: "))
 print("Next prime number is:", next_prime(n))
 ```
+### Question 
+write a program to calculate for fibonacci.
