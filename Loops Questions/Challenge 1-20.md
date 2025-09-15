@@ -439,3 +439,17 @@ Explanation: In the series 0 1 1 2 3 5...... the fourth fibonacci number is 3.
 Input: n = 5
 Output: 5
 Explanation: In the series 0 1 1 2 3 5 8...... the fifth fibonacci number is 5.
+
+### Solution
+```python
+def fibonacci(n):
+    if n <= 1:
+        return n
+    a, b = 0, 1
+    for i in range(2, n + 1):   # loop until n inclusive
+        a, b = b, a + b
+    return b
+
+print(fibonacci(5))
+print(fibonacci(4))
+```
