@@ -22,6 +22,9 @@ b = int(input())
 # Your code here
 c = math.gcd(a,b)
 print(c)
+
+# using Alternative 
+
 ```
 
 ### Question 
