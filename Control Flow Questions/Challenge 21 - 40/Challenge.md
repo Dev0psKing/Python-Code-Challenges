@@ -35,3 +35,27 @@ Explanation: LCM of 5 and 10 is 10
 Input: a = 14, b = 8
 Output: 56
 Explanation: LCM of 14 and 8 is 56
+
+### Solution
+```python
+import math
+
+def LCM(a,b):
+    # Your code here
+    c =math.lcm(a,b)
+    return c
+print(LCM(10,20))
+
+# Alternatively using Brute force Method
+
+def LCM(a, b):
+    if a == 0 or b == 0:
+        return 0   # convention: LCM with 0 is 0
+    greater = max(a, b)
+    while True:
+        if greater % a == 0 and greater % b == 0:
+            return greater
+        greater += 1
+print(LCM(0, 8))   # 0
+print(LCM(10, 20)) # 20
+```
