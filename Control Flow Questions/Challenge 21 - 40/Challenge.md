@@ -76,3 +76,16 @@ Input: s = "are you enjoying programming"
 Output:
 Are You Enjoying Programming
 4 
+
+### Solution
+```python
+s = input("Please enter a sentence ")
+new = s.split()
+capitalized = []
+for word in new:
+    capitalized.append(word.capitalize())
+count = len(capitalized)
+result = " ".join(capitalized)
+print(result)
+print(count)
+```
