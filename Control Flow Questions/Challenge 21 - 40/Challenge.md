@@ -62,3 +62,17 @@ def LCM(a, b):
 print(LCM(0, 8))   # 0
 print(LCM(10, 20)) # 20
 ```
+
+### Question 
+Given a string s of single space-separated words. Capitalize the first letter of all words and count the number of the words in the string. Print the line and the number in separate lines with new line character at the end.
+
+Examples:
+
+Input: s = "welcome to the world of geeks"
+Output: 
+Welcome To The World Of Geeks
+6
+Input: s = "are you enjoying programming"
+Output:
+Are You Enjoying Programming
+4 
